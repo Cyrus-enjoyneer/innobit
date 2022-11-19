@@ -558,11 +558,15 @@ namespace innobit {
      * Read the specified pin or connector as either 0 or 1
      * @param name pin to read from, eg: DigitalPin.P0
      */
-    //% help=pins/digital-read-pin weight=30
-    //% blockId="MP_device_get_digital_pin" block="read PIR sensor" blockGap=8
+    //% subcategory="SPIR sensor"
+    //% blockId="readPIR" weight=40 blockGap=15
+    //% block="read PIR sensor"
+    
+    
+    //% help=pins/digital-read-pin 
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
-    //% subcategory="SPIR sensor"
+
     export function create_digitalReadPin(): number {
         pins.digitalWritePin(DigitalPin.P0, 0);
         return pins.digitalReadPin(DigitalPin.P0);
