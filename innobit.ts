@@ -560,7 +560,7 @@ namespace innobit {
      */
     //% subcategory="SPIR sensor"
     //% blockId="readPIR" weight=40 blockGap=15
-    //% block="read PIR sensor"
+    //% block="read PIR"
     //% block.loc.zh-TW = "人"
     
     
