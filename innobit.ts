@@ -562,8 +562,6 @@ namespace innobit {
     //% help=pins/digital-read-pin 
     //% blockId="readPIR" weight=40 blockGap=15
     //% block="PIR"
-    
-
     export function create_digitalReadPin(): number {
         pins.digitalWritePin(DigitalPin.P0, 0);
         return pins.digitalReadPin(DigitalPin.P0);
