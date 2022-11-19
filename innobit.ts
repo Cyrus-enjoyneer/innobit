@@ -562,7 +562,6 @@ namespace innobit {
     //% help=pins/digital-read-pin 
     //% blockId="readPIR" weight=40 blockGap=15
     //% block="PIR"
-    //% block.loc.zh-TW = "人"
     
 
     export function create_digitalReadPin(): number {
