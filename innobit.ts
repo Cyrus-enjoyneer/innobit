@@ -559,7 +559,7 @@ namespace innobit {
      * @param name pin to read from, eg: DigitalPin.P0
      */
     //% help=pins/digital-read-pin weight=30
-    //% blockId=MP_device_get_digital_pin block="read PIR sensor" blockGap=8
+    //% blockId="MP_device_get_digital_pin" block="read PIR sensor" blockGap=8
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
     //% subcategory="SPIR sensor"
