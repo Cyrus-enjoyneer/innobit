@@ -569,20 +569,7 @@ namespace innobit {
         return pins.digitalReadPin(DigitalPin.P0);
     }
     
-    /**
-     * Read the specified pin or connector as either 0 or 1
-     * @param name pin to read from, eg: DigitalPin.P0
-     */
-    //% subcategory="SPIR sensor"
-    //% help=pins/digital-read-pin 
-    //% blockId="PIR" weight=40 blockGap=15
-    //% block="PIR2"
     
-
-    export function readPin0(): number {
-        pins.digitalWritePin(DigitalPin.P0, 0);
-        return pins.digitalReadPin(DigitalPin.P0);
-    }
    
 
 
@@ -618,6 +605,23 @@ namespace innobit {
 
 
 
+    ///////////////////// 热释电模块 ///////////////////////
+
+    /**
+     * Read the specified pin or connector as either 0 or 1
+     * @param name pin to read from, eg: DigitalPin.P0
+     */
+    //% subcategory="SPIR sensor2"
+    //% help=pins/digital-read-pin 
+    //% blockId="PIR" weight=40 blockGap=15
+    //% block="PIR2"
+    
+
+    export function readPin(): number {
+        
+    }
+    
+    
 
 
 
