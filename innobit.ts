@@ -567,21 +567,7 @@ namespace innobit {
         pins.digitalWritePin(DigitalPin.P0, 0);
         return pins.digitalReadPin(DigitalPin.P0);
     }
-    /**
-       * Set a pin or connector value to either 0 or 1.
-       * @param name pin to write to, eg: DigitalPin.P0
-       * @param value value to set on the pin, 1 eg,0
-       */
-    //% help=pins/digital-write-pin weight=29
-    //% blockId=MP_device_set_digital_pin block="digital write|pin|to %value"
-    //% value.min=0 value.max=1
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
-    //% subcategory="SPIR sensor"
-    /*export function create_digitalWritePin(value: number): void {
-        return pins.digitalWritePin(DigitalPin.P0, value);
-    }*/
-
+   
 
 
 
