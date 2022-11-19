@@ -559,14 +559,11 @@ namespace innobit {
      * @param name pin to read from, eg: DigitalPin.P0
      */
     //% subcategory="SPIR sensor"
+    //% help=pins/digital-read-pin 
     //% blockId="readPIR" weight=40 blockGap=15
-    //% block="read PIR"
+    //% block="PIR"
     //% block.loc.zh-TW = "人"
     
-    
-    //% help=pins/digital-read-pin 
-    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
 
     export function create_digitalReadPin(): number {
         pins.digitalWritePin(DigitalPin.P0, 0);
