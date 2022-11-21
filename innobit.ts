@@ -579,7 +579,7 @@ namespace innobit {
         * @param set Electric Fan speed (0 to 100)
         */
     //% blockId="Fan_M2" weight=12 blockGap=17
-    //% block="Electric Fan speed   M2 %speed|"
+    //% block="Electric Fan M2 speed %speed percent|"
     //% speed.min=0 speed.max=100
     //% subcategory="Electric Fan"
     export function Fan_M2(speed: number) {
@@ -593,7 +593,7 @@ namespace innobit {
         * @param set Electric Fan speed (0 to 100)
         */
     //% blockId="Fan_M1" weight=15 blockGap=15
-    //% block="Electric Fan speed   M1 %speed|"
+    //% block="Electric Fan M1 speed %speed percent|"
     //% speed.min=0 speed.max=100
     //% subcategory="Electric Fan"
     export function Fan_M1(speed: number) {
